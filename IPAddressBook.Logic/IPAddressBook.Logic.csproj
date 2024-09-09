@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IPAddressView.cs~RFe222a.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IPAddressBook.Data\IPAddressBook.Data.csproj" />
+    <ProjectReference Include="..\IPAddressBook.Model\IPAddressBook.Model.csproj" />
+  </ItemGroup>
+
+</Project>

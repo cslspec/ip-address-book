@@ -17,7 +17,7 @@ namespace IPAddressBook.Data
 
         /// <summary>
         /// Use Table-per-type configuration since SQLite does not support
-        /// Use Table-per-concrete-type configuration.
+        /// Table-per-concrete-type configuration.
         /// </summary>
         /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)

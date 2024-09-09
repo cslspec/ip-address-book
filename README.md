@@ -37,4 +37,4 @@ The presentation layer is built using the latest .NET WinForms technology. Since
 
 The business layer takes advantage of .NET classes for validation and other generic business tasks. It does not use dependencies injection since the application is just a proof of concept.
 
-The persistence layer is based on the Entity Core Framework. This generic framework makes it possible to substitute the underlying data storage from SQLite with one of the other the Entity Core Framework, for example Microsoft SQL Server of MongoDB.
+The persistence layer is based on the Entity Core Framework. This generic framework makes it possible to substitute the underlying data storage from SQLite with one of the other Entity Core Framework supported providers, for example Microsoft SQL Server of MongoDB.

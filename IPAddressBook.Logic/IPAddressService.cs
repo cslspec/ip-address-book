@@ -96,7 +96,6 @@ namespace IPAddressBook.Logic
             _dbContext.SaveChanges();
         }
 
-
         /// <summary>
         /// Get a specific IP address from the database.
         /// </summary>

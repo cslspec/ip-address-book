@@ -35,6 +35,6 @@ The application is built in a Layered Architecture:
 
 The presentation layer is built using the latest .NET WinForms technology. Since it strictly conforms to a layered application architecture, it is easy to add or substitute a presentation layer. This could for example be a command line or web interface.
 
-The business layer takes advantage of .NET classes for validation and other generic business tasks. It does not use dependencies injection since the application is just a proof of concept.
+The business layer takes advantage of .NET classes for validation and other generic business tasks. It does not use dependency injection since the application is just a proof of concept.
 
 The persistence layer is based on the Entity Core Framework. This generic framework makes it possible to substitute the underlying data storage from SQLite with one of the other Entity Core Framework supported providers, for example Microsoft SQL Server of MongoDB.

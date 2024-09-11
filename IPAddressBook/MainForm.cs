@@ -50,11 +50,6 @@ namespace IPAddressBook
             _controller.FillGrid();
         }
 
-        private void DataGridView1_CellValueChanged(object? sender, DataGridViewCellEventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
         private readonly MainUiController _controller;
     }
 }
